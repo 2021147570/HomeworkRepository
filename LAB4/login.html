@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LAB2 - login</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <div class="title">
+        <h1>Welcome to INTERNET-PROGRAMMING SHOP</h1>
+    </div>
+    <a href="./login.html" class="selected">로그인</a>
+    <a href="./signup.html">회원가입</a>
+    <hr>
+
+    <div class="second-title">
+        <p>회원정보 (필수)</p>
+    </div>
+
+    <form method="post" autocomplete="on" action="./login.html">
+        
+        <p><label> 아이디:
+            <input type="text" name="userID" placeholder="아이디를 입력하세요" required />
+        </label></p>
+        <p><label> 비밀번호:
+            <input type="password" name="userPW" placeholder="비밀번호를 입력하세요" required />
+        </label></p>
+
+        <p>
+            <button type="submit" class="btn" id="loigin-btn">LogIn</button>
+        </p>
+    </form>
+
+    <hr>
+
+</body>
+</html>
