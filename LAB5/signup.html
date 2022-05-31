@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LAB2 - signup</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <div class="title">
+        <h1>Welcome to INTERNET-PROGRAMMING SHOP</h1>
+    </div>
+    <a href="./login.html">로그인</a>
+    <a href="./signup.html" class="selected">회원가입</a>
+    <hr>
+
+    <div class="second-title">
+        <p>개인정보 (필수)</p>
+    </div>
+
+    <form method="post" autocomplete="on" action="./login.html">
+        
+        <p><label> 대표 색상:
+            <input type="color" name="color" autofocus id="colorpicker" required />
+        </label></p>
+        <p><label> 이름:
+            <input type="text" name="name" placeholder="이름을 입력하세요" required />
+        </label></p>
+        <p><label> 생일:
+            <input type="date" name="birthday" required />
+        </label></p>
+        <p><label> 학년:
+            <input type="number" name="grade" min="1" max="6" step="1" value="2" required />
+        </label></p>
+        <p><label> 전화번호:
+            <input type="tel" name="phoneNumber" placeholder="(###) ###-####" pattern="\(\d{3}\) \d{3}-\d{4}" required />
+        </label></p>
+        <p><label> 이메일:
+            <input type="email" name="email" placeholder="name@domain.com" required />
+        </label></p>
+        <p><label> 아이디:
+            <input type="text" name="userID" placeholder="아이디를 입력하세요" required />
+        </label></p>
+        <p><label> 비밀번호:
+            <input type="password" name="userPW" placeholder="비밀번호를 입력하세요" required />
+        </label></p>
+        <p><label> 비밀번호 확인:
+            <input type="password" name="userPWcheck" placeholder="비밀번호를 재입력하세요" required />
+        </label></p>
+
+        <p>
+            <button type="submit" class="btn" id="signup-btn">Signup</button>
+            <button type="reset" class="btn" id="cancel-btn">Cancel</button>
+        </p>
+    </form>
+
+    <hr>
+
+</body>
+</html>

@@ -1,0 +1,146 @@
+[
+    {
+        "name" : "yellow hair",
+        "price" : 500,
+        "image" : "hero(yellow).png",
+        "type" : "hero",
+        "postID" : 1,
+        "id" : 1
+    },
+    {
+        "name" : "brown hair",
+        "price" : 600,
+        "image" : "hero(brown).png",
+        "type" : "hero",
+        "postID" : 1,
+        "id" : 2
+    },
+    {
+        "name" : "black hair",
+        "price" : 700,
+        "image" : "hero(black).png",
+        "type" : "hero",
+        "postID" : 1,
+        "id" : 3
+    },
+    {
+        "name" : "assasin",
+        "price" : 500,
+        "image" : "assasin.png",
+        "type" : "hero",
+        "postID" : 1,
+        "id" : 4
+    },
+    {
+        "name" : "witch",
+        "price" : 600,
+        "image" : "witch.png",
+        "type" : "hero",
+        "postID" : 1,
+        "id" : 5
+    },
+    {
+        "name" : "archer",
+        "price" : 700,
+        "image" : "robin-hood.png",
+        "type" : "hero",
+        "postID" : 1,
+        "id" : 6
+    },
+    {
+        "name" : "tree monster",
+        "price" : 300,
+        "image" : "monster(tree).png",
+        "type" : "enemy",
+        "postID" : 1,
+        "id" : 7
+    },
+    {
+        "name" : "yellow monster",
+        "price" : 400,
+        "image" : "monster(yellow).png",
+        "type" : "enemy",
+        "postID" : 1,
+        "id" : 8
+    },
+    {
+        "name" : "dragon",
+        "price" : 700,
+        "image" : "monster(dragon).png",
+        "type" : "enemy",
+        "postID" : 1,
+        "id" : 9
+    },
+    {
+        "name" : "ghost",
+        "price" : 300,
+        "image" : "ghost.png",
+        "type" : "enemy",
+        "postID" : 1,
+        "id" : 10
+    },
+    {
+        "name" : "gargoyle",
+        "price" : 400,
+        "image" : "gargoyle.png",
+        "type" : "enemy",
+        "postID" : 1,
+        "id" : 11
+    },
+    {
+        "name" : "troll",
+        "price" : 700,
+        "image" : "troll.png",
+        "type" : "enemy",
+        "postID" : 1,
+        "id" : 12
+    },
+    {
+        "name" : "sword",
+        "price" : 100,
+        "image" : "sword.png",
+        "type" : "weapon",
+        "postID" : 1,
+        "id" : 13
+    },
+    {
+        "name" : "lance",
+        "price" : 150,
+        "image" : "lance.png",
+        "type" : "weapon",
+        "postID" : 1,
+        "id" : 14
+    },
+    {
+        "name" : "gun",
+        "price" : 200,
+        "image" : "gun.png",
+        "type" : "weapon",
+        "postID" : 1,
+        "id" : 15
+    },
+    {
+        "name" : "axes",
+        "price" : 100,
+        "image" : "axes.png",
+        "type" : "weapon",
+        "postID" : 1,
+        "id" : 16
+    },
+    {
+        "name" : "bow",
+        "price" : 150,
+        "image" : "bow-and-arrow.png",
+        "type" : "weapon",
+        "postID" : 1,
+        "id" : 17
+    },
+    {
+        "name" : "wand",
+        "price" : 200,
+        "image" : "magic-wand.png",
+        "type" : "weapon",
+        "postID" : 1,
+        "id" : 18
+    }
+]
